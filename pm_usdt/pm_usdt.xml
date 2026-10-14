@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="payment" version="3.0" method="upgrade">
+    <name>USDT (TRC20) — USDT Pay</name>
+    <author>USDT Pay</author>
+    <version>1.0</version>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="api_url" type="text" default="https://usdt-gansta.ru" label="Gateway URL"/>
+                <field name="api_key" type="text" default="0723a019eb49d9dc8866325217d559a452aaddad2ecb819bf5b09d474d1cdaf0" label="API key"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
